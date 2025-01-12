@@ -1,0 +1,435 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eaf4ed;
+}
+
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.header h1{
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.sign-in{
+  
+  font-size: 16px;
+  padding: 8px 16px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  background-color: #005f47;
+}
+
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d7f4e1;
+  padding: 30px;
+  border-radius: 24px;
+}
+
+.text-section{
+  max-width: 600px;
+}
+
+.text-section h2{
+  font-size: 16px;
+  color: #0a4d24;
+  margin: 0;
+}
+
+.text-section h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 10px 0 20px;
+  color: #000;
+}
+
+.explore-button {
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #0a4d24;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.explore-button:hover {
+  background-color: #005f47;
+}
+.icon-section{
+  position: relative;
+}
+
+.icon-wrapper{
+  display: flex;
+  justify-content: center;
+
+}
+
+.pillars-section, .vision-section{
+  padding: 20px;
+ 
+}
+
+.second-div{
+  margin-left: 80px;
+}
+
+.pillars{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.pillar{
+  text-align: center;
+  width: 200px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.vision-section p {
+  text-align: center;
+  max-width: 800px;
+  
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.vision-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+}
+
+card button {
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #aaccf0;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #555;
+}
+
+.quote-section {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+  font-size: 16px;
+  font-style: italic;
+  color: #555;
+  margin: 0;
+  padding: 10px 0;
+  border-left: 5px solid #007bff;
+  padding-left: 15px;
+}
+
+.author {
+  text-align: right;
+  font-size: 14px;
+  margin-top: 10px;
+  color: #777;
+}
+
+.opinion-section {
+  padding: 20px;
+}
+
+.opinion-section h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.opinion-table {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #d4edda;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+td {
+  font-size: 14px;
+  color: #555;
+}
+
+tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+select:hover {
+  border-color: #007bff;
+}
+
+.news-section {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.news-section h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.intro-text {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.news-card {
+  display: flex;
+  align-items: flex-start;
+  background-color: #fff;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.news-image {
+  width: 40%;
+  max-width: 300px;
+  height: auto;
+}
+
+.news-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.news-content h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.source {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.read-more:hover {
+  background-color: #0056b3;
+}
+
+.donate-section {
+  padding: 40px;
+  background-color: white;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.donate-section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.donate-section p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.donation-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.donation-buttons button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+.donation-buttons button:hover {
+  background-color: #e7f5ea;
+}
+
+.custom-amount {
+  margin-bottom: 20px;
+}
+
+.custom-amount input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.donate-section button {
+  font-size: 16px;
+  padding: 10px 30px;
+  background-color: #007f5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.donate-section button:hover {
+  background-color: #005e46;
+}
+
+.subscribe-section {
+  padding: 40px;
+  background-color: #e7f5ea;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.subscribe-section input {
+  width: calc(100% - 120px);
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscribe-section button {
+  font-size: 16px;
+  padding: 10px 20px;
+  background-color: #007f5f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.subscribe-section button:hover {
+  background-color: #005e46;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  border-top: 1px solid #ddd;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+}
